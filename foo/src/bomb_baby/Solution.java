@@ -1,4 +1,4 @@
-package BombBaby;
+package bomb_baby;
 
 import java.math.BigInteger;
 

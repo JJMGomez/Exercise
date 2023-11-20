@@ -1,4 +1,4 @@
-package EnRouteSalute;
+package enroute_salute;
 
 import java.util.ArrayList;
 import java.util.HashMap;

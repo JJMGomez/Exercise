@@ -1,4 +1,4 @@
-package FuelInjectionPerfection;
+package fuel_injection_perfection;
 
 import java.math.BigInteger;
 import java.util.HashMap;
