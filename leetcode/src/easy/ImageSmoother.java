@@ -36,9 +36,10 @@ public class ImageSmoother {
         return image[i][j];
     }
 
+
     public static void main(String[] args) {
-        int[][] img_case1 = new int[][]{{100,200,100},{200,50,200},{100,200,100}};
         ImageSmoother imageSmoother = new ImageSmoother();
+        int[][] img_case1 = new int[][]{{100,200,100},{200,50,200},{100,200,100}};
         imageSmoother.imageSmoother(img_case1);
     }
 }
