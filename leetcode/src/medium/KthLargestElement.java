@@ -60,8 +60,10 @@ public class KthLargestElement {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{3,2,1,5,6,4};
-        KthLargestElement case1 = new KthLargestElement();
-        System.out.print(case1.findKthLargest1(nums,2));
+//        int[] nums = new int[]{3,2,1,5,6,4};
+//        KthLargestElement case1 = new KthLargestElement();
+//        System.out.print(case1.findKthLargest1(nums,2));
+        System.out.print( 1/2);
+
     }
 }
