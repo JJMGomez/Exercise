@@ -30,5 +30,6 @@ public class MovingAverage {
         System.out.println(movingAverage.next(3));
         System.out.println(movingAverage.next(5));
         System.out.println(movingAverage.next(9));
+
     }
 }
