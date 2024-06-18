@@ -8,6 +8,7 @@ import java.util.Stack;
 public class BasicCalculator {
     public int calculate(String s) {
         Stack<Integer> stack = new Stack<Integer>();
+
         int result = 0;
         int number = 0;
         int sign = 1;
