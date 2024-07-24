@@ -27,7 +27,7 @@ public class BrowserHistory {
     }
 
     public String forward(int steps) {
-        while (stack2.size()>0 && steps > 0){
+        while (!stack2.isEmpty() && steps > 0){
             stack1.add(stack2.pop());
             steps--;
         }
@@ -46,6 +46,5 @@ public class BrowserHistory {
         System.out.println(browserHistory.forward(2));
         System.out.println(browserHistory.back(2));
         System.out.println(browserHistory.back(7));
-
     }
 }
